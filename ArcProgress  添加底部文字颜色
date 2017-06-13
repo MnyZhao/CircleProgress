@@ -390,6 +390,7 @@ public class ArcProgress extends View {
             bottomText = bundle.getString(INSTANCE_BOTTOM_TEXT);
             textSize = bundle.getFloat(INSTANCE_TEXT_SIZE);
             textColor = bundle.getInt(INSTANCE_TEXT_COLOR);
+            textbottomColor=bundle.getInt(INSTANCE_TEXT_BOTTOM_COLOR);
             setMax(bundle.getInt(INSTANCE_MAX));
             setProgress(bundle.getInt(INSTANCE_PROGRESS));
             finishedStrokeColor = bundle.getInt(INSTANCE_FINISHED_STROKE_COLOR);
